@@ -58,6 +58,17 @@ body {
     font-size: 20px;
   }
 
+.div1 { 
+    font-size: 30px;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.div2 {     
+    background-color: orange;
+    padding: 20px;
+}
+
   /* Andet sektion */ 
   .parent {
     display: grid;
