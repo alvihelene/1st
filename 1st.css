@@ -57,10 +57,10 @@ body {
   }
 
 .div1 { 
-    background-color: black;
+    background: black;
     font-size: 30px;
-    margin-top: 20px;
-    justify-self: center;
+    text-align: center;
+    padding-top: 35px;
 }
 
 .div2 {     
@@ -68,24 +68,32 @@ body {
     padding: 20px;
 }
 
+.div3 {
+    object-fit: contain;
+}
+
 .div4 {     
     padding: 20px;
+    background-color: white;
 }
 
 .div5 {     
     color:black;
     padding: 20px;
+    background-color: white;
+    width: 116%;
 }
 
   /* Andet sektion */ 
   .parent {
     display: grid;
     color:white;
-    padding-left: 150px;
-    grid-template-columns: repeat(4, 250px) 200px;
-    grid-template-rows: repeat(2, 200px) repeat(2, 1fr);
+    background-color: black;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    justify-items: stretch;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
