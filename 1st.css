@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     margin:0;
-
   }
 
 
@@ -66,6 +65,17 @@ body {
 
 .div2 {     
     background-color: orange;
+    padding: 20px;
+}
+
+.div4 {     
+    background-color: white;
+    padding: 20px;
+}
+
+.div5 {     
+    background-color: white;
+    color:black;
     padding: 20px;
 }
 
