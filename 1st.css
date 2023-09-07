@@ -1,7 +1,6 @@
 body {
-    background-image: url('pics/sky.jpg');
-    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
+    background-image: url(pics/sky.jpg);
   }
   
   h1 {
