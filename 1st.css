@@ -61,7 +61,6 @@ body {
   /* Andet sektion */ 
   .parent {
     display: grid;
-    justify-content: center;
     color:white;
     padding-left: 150px;
     grid-template-columns: repeat(4, 250px) 200px;
