@@ -1,8 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(pics/sky.jpg);
+    background-color: black;
+    margin:0;
+
   }
-  
+
+
   h1 {
     margin: 0px;
   }
@@ -10,6 +13,7 @@ body {
 /* navigation*/
 .topnav {
     overflow: hidden;
+    position: fixed;
   
   }
   
@@ -36,6 +40,9 @@ body {
 
 /* Første sektion*/
   .flex-container1 {
+    background-image: url(pics/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     height: 500px;
