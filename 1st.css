@@ -1,5 +1,7 @@
-body {background-color: powderblue;
-}
+body {
+    background-image: url('pics/sky.jpg');
+  }
+  
 
 .topnav {
     overflow: hidden;
@@ -9,7 +11,7 @@ body {background-color: powderblue;
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,4 +28,3 @@ body {background-color: powderblue;
     border-bottom: 3px solid orange;
   }
 
-  
