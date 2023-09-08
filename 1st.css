@@ -4,7 +4,6 @@ body {
     font-size: 20px;
   }
 
-
   h1 {
     margin: 0px;
   }
@@ -129,8 +128,24 @@ body {
     
     .flex-container4 > div {
       width: 500px;
-      text-align: left;
+      text-align: center;
+      line-height:250px;
       color:white;
       margin-top: 100px;
     
+    }
+
+    /* Femte sektion */ 
+    .flex-container5 {
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 100px;
+      padding:20px;
+    }
+    
+    .flex-container5 > div {
+      width: 500px;
+      text-align: left;
     }
