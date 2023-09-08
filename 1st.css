@@ -127,7 +127,7 @@ body {
     }
     
     .flex-container4 > div {
-      width: 500px;
+      width: 484px;
       text-align: center;
       line-height:250px;
       color:white;
@@ -137,12 +137,14 @@ body {
 
     /* Femte sektion */ 
     .flex-container5 {
-      background-color: white;
+      background-color: orange;
+      color: white;
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 100px;
       padding:20px;
+      margin-left:150px;
+      padding:50px;
     }
     
     .flex-container5 > div {
