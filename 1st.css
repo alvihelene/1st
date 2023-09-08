@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin:0;
+    font-size: 20px;
   }
 
 
@@ -41,7 +42,7 @@ body {
   .flex-container1 {
     background-image: url(pics/sky.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     padding-left: 150px;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,6 @@ body {
     color: white;
     width: 500px;
     text-align: left;
-    font-size: 20px;
   }
 
 .div1 { 
@@ -85,7 +85,7 @@ body {
 }
 
   /* Andet sektion */ 
-  .parent {
+  .parent1 {
     display: grid;
     color:white;
     grid-template-columns: repeat(5, 1fr);
@@ -117,14 +117,20 @@ body {
 
             /* Fjerde sektion */ 
     .flex-container4 {
-      background-color: white;
+      background-image: url(pics/spiral.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 100px;
+      height: 500px;
+
     }
     
     .flex-container4 > div {
       width: 500px;
       text-align: left;
+      color:white;
+      margin-top: 100px;
+    
     }
